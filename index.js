@@ -16,6 +16,7 @@ for(let contador = 0; contador < variableConDatos.length; contador++){
 */
 
 /*
+// 2º CON CONDICIÓNS
 for(let contador = 0; contador < variableConDatos.length; contador++){
     console.log("contador do primeiro for: \n", contador)
 
@@ -41,6 +42,7 @@ let obxeto1 = {
 
 //console.log(obxeto1.tipo)
 /*
+// ACCEDO OS VALORES DO OBXETO CONDICIONADO POLA PROPIEDADE
 for(let elementoDoObxeto in obxeto1){
     console.log(elementoDoObxeto)
     if(elementoDoObxeto === "nome"){
@@ -77,6 +79,7 @@ console.log(arrayConObxetos[2].nome)
 
 
 /*
+// ACCEDO OS VALORES DO OBXETO CONDICIONADO POLA PROPIEDADE 'valor'
 let array2 = [];
 for(let contadorObxeto = 0; contadorObxeto < arrayConObxetos.length; contadorObxeto++){
     if(arrayConObxetos[contadorObxeto].valor > 200){
